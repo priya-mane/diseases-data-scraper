@@ -35,7 +35,7 @@ This will create a csv file containing 2 columns -
 python disease_names_and_urls_scraper.py -fname diseases.csv
 ```
 
-![sample op](imgs/name_urls_sample.jpg)
+![](./imgs/name_urls_sample.JPG)
 
 ***
 ## STEP 2
@@ -70,7 +70,7 @@ python diseases_components_scraper.py -c <component> -i <diseases_url_filename> 
 python diseases_components_scraper.py -c basic -i diseases.csv -o disease_components.csv
 ```
 
-![basic_scraped_ss](imgs/basic_op.jpg)
+![](./imgs/basic_op.JPG)
 
 Adding diagnosis column to the existing dataframe
 
@@ -78,7 +78,7 @@ Adding diagnosis column to the existing dataframe
 python diseases_components_scraper.py -c diagnosis -i disease_components.csv -o disease_components.csv
 ```
 
-![diagnosis_ss](imgs/diagnosis.jpg)
+![](./imgs/diagnosis.JPG)
 
 
 Dataset so far as per above execution : [Here](disease_components.csv)
